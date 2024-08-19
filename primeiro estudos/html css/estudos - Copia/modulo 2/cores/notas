@@ -1,0 +1,15 @@
+gradients:
+para criar gradients usamos o baclground-image porem para termos um gradient usamos o parametro interno linear-gradient.
+
+quando o gradient for to top devemos criar uma config global no paramentro * height 100%.
+podemos usar quantas cores quisermos no gradient.
+podemos usar o deg para mudar angulatura
+podemos também usar o parametro radial-gradient para criar um gradiente circular, também no lugar do top ou deg devemos usar o circle.
+se na frente de cada cor nós colocarmos alguma porcentagem ele vai definir quanto daquela cor irá aparecer.
+limite de paleta de 3 a 5 cores fora preto e branco.
+
+~para adaptar o código com acentos e caracteres especiais usamos no css @ para regras e nesta regra usamos @charset 'UTF-8'.
+main - parametro do HTML que significa corpo principal do site
+para alinhar um texto usamos text-align, para justificar usamos dentro do text-align o parametro justify.
+quando trabalhamos o main no css criamos basicamente uma caixa dentro do site 'exemplo no style'.
+no main se usarmos margin: auto conseguimos centralizar o main.

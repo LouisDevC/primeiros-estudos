@@ -1,0 +1,65 @@
+modelo de caixas 
+
+tudo na tela é exibido em fprma de caixa
+podemos ter uma caixa dentro da outra
+'aninhameto'
+todo elemento visivel é uma caixa
+medidas de uma caixa - altura (height) largura (width)
+borda (border) - fica grudado na area do conteudo
+quando criamos um espaço interno entre o conteudo e a borda chamamos de padding.
+margem(margin) - é o distanciamento interno
+outline - contorno externo
+inline - contorno interno
+
+tipos de caixa:
+  box level - pula para a linha de baixo, ocupa a largura total da tela.
+  tags = <div>; <h1> a <h6>; <main>; header; nav; article; Aside; footer; form; video; etc.
+
+  inline level - não pula a linha faz a caixa do lado e não ocupa a largura total da tela.
+  tags = <span>; links; a; code; small; strong; em; sup; sub; label; butt; input; select; etc.
+
+----------------------------------------------------------------
+para centralizar uma box usamos MARGIN AUTO
+
+grouping tags:
+maneira semantica
+header - cabeçalho
+main - corpo
+footer - rodapé
+nav - navegação (menu)
+section - sessão
+articles - artigo
+aside - conteudo relativo a um artigo
+---------------------------------------------------------------
+sombras:
+!não_exagere!
+#possuem short hands
+ são 3 parametros: 
+ inset(opcional); largura; altura; espalhamento; 
+ embaçamento(opcional); cor(para não ficar intenso use a transparencia, dê preferencia ao black);
+ css tags:
+ box-shadow;
+ text-shadow;
+ ---------------------------------------------------------------
+vertices arredondados:
+border-radius -> arredondamento da borda
+podemos usar outros parametros nas bordas como ->
+border top left radius mas vamos usar o shorthand
+#shorthand
+  (border-radius:20px 20px 20px 20px;)
+  podemos usar apenas dois paramentros assimetrando topo com baixo direita com esquerda
+----------------------------------------------------------------
+#bordas de imagens
+  usando gimp faça um estilo grid (jogo da velha)
+  larg 80px
+  alt 80px
+  resol 70
+  cor de fundo transparent(preferencial)
+
+  colocamos uma borda normal primeiro
+  depois colocamos border-image-source:url(link para a imagem)
+  para movimentar a imagem usamos border-image-slice:20
+  (use o dev tools para poder movimentar o valor do slice)
+  para evitar o esticamento usamos border-image-repeat:repeat
+  (se quiser o esticamento use o parametro stretch)
+  #shorthand border-image

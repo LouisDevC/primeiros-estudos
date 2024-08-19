@@ -1,0 +1,10 @@
+use a tag audio comdiretorio no source para tecnicamente o autoplay é pra começar a tocar porém não está funcionando.
+controls - liga os controles de audio podemos usar mp3 Wav e ogg
+colocamos varios formatos assim como nas imagens dinâmicas porem dessa vez um em baixo do outro
+sendo que colocamos a tag source e usamos no type uma definição audio/formato.
+quando não há possibilidades a mais deixamos um paragrafo dizendo que infelizmente não reporduz
+   
+    parametro preload: auto arriscado pois só carrega o site quando terminar de carregar o audio.
+    parametro preload metadata mostra detalhes
+    parametro loop recomeça o audio quando chega no fim.
+    wav são muito pesados

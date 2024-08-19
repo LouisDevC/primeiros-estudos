@@ -1,0 +1,19 @@
+quebrar linha com varios brs é errado
+<!-- é comentário
+lt -> menor que
+gt -> maior que
+&reg -> marca registrada
+&copy -> copyright
+&trade -> tm pequeno, marca registrada
+&euro -> euro
+&pound -> libra
+&yen -> yens
+&cent -> centavos americanos
+&delta -> delta minusculo
+&Delta -> delta maiusculo
+&uparrow -> seta para cima ou &uarr;
+*misc simbols*
+
+emojis - buscar noemojipedia
+&#x1f596; -> essa tag com os hexadecimais de cada emoji funciona
+copiar e colar tbm funciona

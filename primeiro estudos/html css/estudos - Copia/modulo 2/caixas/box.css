@@ -1,0 +1,28 @@
+@charset "UTF - 8";
+
+h1{
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    padding: 20px 30px 40px 50px;
+    margin: auto;
+    outline-width: 5px;
+    outline-style: double;
+    outline-color: blueviolet;
+    box-shadow: -10px 10px 10px rgba(92, 1, 110, 0.651);
+}
+p{
+    margin-top: 50px
+}
+a{
+    border: 3px dashed red;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-align: center;
+    outline: 5px double black;
+}

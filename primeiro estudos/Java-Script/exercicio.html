@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercíxios</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Extrangeiro ou Brasileiro</h1>
+    <p>País:</p>
+    <input type="text" name="nac" id="inac">
+    <input type="submit" value="Verificar" id="busca" onclick="nacionalidade()">
+    <div id="res">
+        Resultado:
+    </div>
+
+    <script>
+        function nacionalidade() {
+            var pais = window.document.getElementById('inac').value
+            var res = window.document.getElementById('res')
+            if (pais === 'brasil'){
+                res.innerHTML = `Você é Brasileiro`
+            }
+            else{
+               res.innerHTML = `Você é Extrangeiro`
+            }
+        }
+    </script>
+</body>
+</html>

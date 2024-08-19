@@ -1,0 +1,7 @@
+code - font monoespaçada, não organiza a escrita.
+envelopar o code usando <pre> vai considerar todo o detalhe da escrita no html e usar na pag
+evelopar com a tag <q> coloca uma citação entre aspascom sentido semantico.(usar apenas em citaçoes)
+blockquote - citações inteiras tiradas de um livro por exemplo
+cite - colcada  como parametro da blockquote colocamos o link daonde surgiu a citação
+envelopar uma palavra com abbr permite que deixe escondido o sentido da palavra ai quando passar o mouse na palavra no site vai aparecer o significado.
+bdo - sempre colocar uma direção sendo ltr(left to right) ou rtl(right to left) ai ele inverte o texto dependendo da direção.

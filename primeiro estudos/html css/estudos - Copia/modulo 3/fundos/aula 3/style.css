@@ -1,0 +1,24 @@
+/*body{
+    height: 98vh;
+    background-image: url(imgs/wallpaper006.jpg);
+    background-position: center bottom;
+}*/
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url(imgs/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;/*ocupa 100% da view port sem distorcer a imagem*/
+    background-attachment: fixed;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.582);
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 20px;
+}
+
+/*shorthand background color image position repeat size(na shorthand não está funcionando)attachment*/

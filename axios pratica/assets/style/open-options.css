@@ -1,0 +1,26 @@
+.product-options{
+    position: absolute;
+    width: 200px;
+    min-height: 0px; /*250*/
+    height: auto;
+    top: 160px;
+    left: 120px;
+    background-color: #f86724;
+    border: 1px solid black;
+    border-radius: 0px 4rem 4rem 4rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-options a{
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    opacity: .8;
+}
+.product-options a:hover{
+    opacity: 1;
+}

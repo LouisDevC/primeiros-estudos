@@ -1,0 +1,4 @@
+repositório local- git
+repositório remoto- gitHub
+
+para bg imagem das divs tomar cuidado com o tamanho.

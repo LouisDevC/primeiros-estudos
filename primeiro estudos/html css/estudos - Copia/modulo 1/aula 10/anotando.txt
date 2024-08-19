@@ -1,0 +1,6 @@
+a tag <a> vem de anchor e coloca um link em uma palavra assim ancoramos o link na palavra.
+a tag target usamos o parametro _blank para poder abrir em outra guia.
+um bom uso seria colocar no parametro rel falando se é internal ou external.
+o anchor <a> também leva paginas internas exemplo no index e no pag2 no interno usamos o rel next ou prev para dizer ao google ou navegador qual é a proxima pagina
+quando voce usa um link externo não patrocinado usa o rel nofollow.
+o patrocinado é dofollow

@@ -1,0 +1,11 @@
+imágens dinâmicas com gimp
+
+criar uma imagem padrão com o gimp
+sendo por base P=300, M=700, G=1000
+coloque o img dentro da tag picture
+assim podemos definir imagens dinamicas 
+por varias tamanhos de tela isso evita o bounce rate site ruim
+de baixo pra cima usando source type
+media max whidth tam max da imag anterior
+srcset é o diretorio
+então primeiro vem o img acima um source e sempre acima quantos sources precisar dependendo da quantidade ded imagens.

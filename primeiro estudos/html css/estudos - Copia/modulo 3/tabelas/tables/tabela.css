@@ -1,0 +1,32 @@
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    vertical-align: middle;/*top; middle; bottom*/
+}
+table{
+    width: 400px;
+    height: 400px;
+    border-collapse: collapse;
+    border: 5px solid black;
+    position: relative;
+}
+thead{
+    position: sticky;
+}
+tr{
+    background-color: rgb(255, 255, 255);
+}
+tr:nth-child(2n){
+    background-color: lightgray; /*faz o zebrado da lista*/
+}
+/*fechamento de tag tr e td na hmtml é opcional
+hierarquias devem ser obedecidas
+
+definir escopo de th --
+caption(legenda da tabela)acima do thead
+
+th - diz respeito a tabela
+scope - col dados na mesma coluna
+scope - row dados na mesma linha
+*/

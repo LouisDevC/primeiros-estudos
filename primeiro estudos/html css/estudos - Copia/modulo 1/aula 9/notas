@@ -1,0 +1,6 @@
+ol -> listas ordenadas(enumera)
+li - > itens da lista o </li> é opcional.
+para usar formatação mudando a numeração usamos type como parametro do ol
+o parametro start decide daonde começa caso contrario começara do 1
+ul -> listas não ordenadas (usa outra simbologia)
+també usamos o parametro type porem neste temis apenas as tags disc, circle, square

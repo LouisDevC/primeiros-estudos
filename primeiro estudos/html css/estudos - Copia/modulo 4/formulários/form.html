@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>formulário</h1>
+    <form autocomplete="off" action="data.js" method="post">
+        <p><label for="inome">nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isob">sobrenome:</label> 
+            <input type="text" name="sob" id="isob"></p>
+        <p><input type="submit" value="sending"></p>
+    </form>
+    <hr>
+    <form action="data.js" method="post" autocomplete="on">
+    <p>
+        <label for="iusu"> usuário</label>
+        <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="30" placeholder="nome do usuário" autocomplete="name">
+    </p>
+    <p>
+        <label for="ipass">senha:</label>
+        <input type="password" name="pass" id="ipass" required minlength="8" maxlength="20" size="30" placeholder="senha" autocomplete="new-password">
+    </p>
+    <input type="submit" value="enviar">
+    <input type="reset" value="limpar">
+    </form>
+    <hr>
+    <form action="data.js" method="get" autocomplete="on">
+        <p>
+            <label for="inome">nome</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="nome completo" autocomplete="name">
+        </p>
+        <p>
+            <label for="imedia">média</label>
+            <input type="number" name="media" id="imedia" minlength="0" maxlength="2" placeholder="0 a 10" size="2" step="0.1" required>
+        </p>
+        <p>
+            <label for="iper">período letivo</label>
+            <input type="month" name="per" id="iper" value="2020-05">
+        </p>
+        <p>
+            <label for="iday">dia da prova</label>
+            <input type="date" name="day" id="iday">
+        </p>
+        <label for="ihora"> hora da prova</label>
+        <input type="time" name="hora" id="ihora">
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+        <hr>
+        <form action="data.js" method="get" autocomplete="on">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <p>
+                    <label for="imail">E-mail</label>
+                    <input type="email" name="mail" id="imail" autocomplete="email">
+                </p>
+                <p>
+                    <label for="itel">Telefone</label>
+                    <input type="tel" name="tel" id="itel" autocomplete="tel-national" required pattern="^\(d{2}\)\d{4,5}-d{4}$">
+                </p>
+                <!--estudar regEx(expressões regulares)
+                e patterns em html 5-->
+                <p>
+            </fieldset>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </p>
+        </form>
+    </form>
+    <hr>
+    <form action="data.js" method="get">
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sx" id="isxmasc" checked><label for="isxmasc">masculino</label>
+            <input type="radio" name="sx" id="isxfemale"><label for="isxfemale">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>esportes favoritos</legend>
+            <input type="checkbox" name="fut" id="ifut"><label for="ifut">futebol</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+    <hr><hr>
+    <form action="data.js" method="post">
+        <p>
+            <label for="icor">cor:</label>
+            <input type="color" name="cor" id="icor" value="#00ff00">
+        </p>
+        <p>
+            <label for="irange">range:</label>
+            <input type="range" name="range" id="irange" min="0" max="3"  value="3">
+        </p>
+        <p>
+            <label for="ifoto">perfil</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+        <input type="submit" value="enviar">
+    </form>
+    <hr><hr>
+    <form action="data.js" method="post">
+    <p>
+        <label for="iest">estado:</label>
+        <select name="est" id="iest">
+            <option value="" selected>--escolha--</option>
+            <optgroup label="estados">
+                <option value="SP">São paulo</option>
+                <option value="GO"> goiás</option>
+            </optgroup>
+            <optgroup label="capital">
+                <option value="Cn">Caldas Novas</option>
+                <option value="Sp">Capital</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="iprof">profissão</label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option value="pe">pedreiro</option>
+            <option value="dev">desenvolvedor</option>
+        </datalist>
+    </p>
+    <p>
+        <label for="imsg">mensagem</label> <br>
+        <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="msg"></textarea>
+    </p>
+</form>
+</body>
+</html>
+aprenda https

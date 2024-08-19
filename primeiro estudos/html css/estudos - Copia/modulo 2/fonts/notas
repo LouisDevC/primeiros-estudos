@@ -1,0 +1,27 @@
+fontes:
+fontes sem serifa são mais faceis de ler
+podemos encontrar fontes externas no google fonts
+css safe fonts combinations da w3schools
+se usarmos sans-serif, serif, monospace, são parametros GENERICOS.
+na font family sempre a ultima deve ser uma escolha generica pra não ter incompatibilidade com certos dispositivos
+tamanhos de fontes:
+medida absolutas - cm(centímetro); mm(milímetro),in(polegada);px(pixel);pt(ponto);pc(paica)
+medidas relativas - em(relativo ao tamanho atual da fonte); ex(relativo a altura X de uma fonte); rem(relativo a fonte do body); vw( referente largura da tela); (altura da tela);
+16px normalmente é igual a 1em(tamanho padrão)tamanho da letra noralmente.
+obs: é sempre melhor usar o em e o px.
+width: largura; height: altura; weight: peso - lighter normal:
+--------------------------------------------------------------
+importando fontes:
+usamos o DaFont e o Google fonts rmbedamos com @import
+3 no maximo 4 familias
+para tirar fontes de sites usamos fonts ninja.
+para saber fontes das imagens podemos usar o fountfinder
+font squirrel, myfonts.
+==============================================================
+alinhamento de fontes:
+text-align: podemos usar center left ou right para centralizar ou levar a direita ou esquerda.
+justify -> alinha dos dois lados justificando o texto.
+text-indent: identação da primeira linha do texto.
+
+*a_tag_center_no_html-esta-obsoleta*
+

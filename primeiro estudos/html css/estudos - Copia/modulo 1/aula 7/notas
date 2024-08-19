@@ -1,0 +1,10 @@
+significado de algo vale mais do que a forma.
+isso define semantica no html
+tags obsoletas são tags que não se usam mais.
+w3.org -> melhor sites para ver o que está obsoleto.(site relacionado a w3c).
+forams se usam apenas em css.
+html foca apenas em tags semanticas.
+tags = qualquer css, 'u','marquee',big
+
+tegs não semanticas = <b> para negrito, <i> não semantica
+com semantica = strong no lugar de <b>, Em italico (enfase), mark para marcatexto,small ainda funciona, del cortas as letras no meio, ins sublinha, sub e sup, coloca elevado ou subelevado

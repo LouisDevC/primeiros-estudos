@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+</head>
+<body>
+    <form action="php.php" method="post" autocomplete="off">
+        <p>
+            <label for="in1">número 1:</label>
+            <input type="number" name="n1" id="in1" oninput="isum.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="in2">número 2:</label>
+            <input type="number" name="n2" id="in2" oninput="isum.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="isum">soma:</label>
+            <output id="isum">0</output>
+        </p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+    <form action="php.php" method="post">
+        <p>
+            <label for="inum">número</label>
+            <input type="range" name="num" id="inum" min="0" max="10" value="5" oninput="ival.innerHTML = Number(inum.value)">
+            <output id="ival">5</output>
+
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+        <p>
+            <label for="iano">ano de nascimento</label>
+            <input type="number" name="ano" id="iano" min="1950" oninput="idadec()"> 
+        </p>
+        <p>
+            <label for="iidade">sua idade é</label>
+            <output id="iidade">0</output>
+        </p>
+    </form>
+    <script>
+        function idadec(){
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+</body>
+</html>

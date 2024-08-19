@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+
+body{
+    font-family: pacifico, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2cm;
+    font-weight: lighter;
+}
+i{
+    font-size: 2em;
+}
+/*shorhand das configs acima(font-style > font weight > font-size > font family*/
+h2{
+    font: italic lighter 2em 'Times New Roman', Times, serif;
+}

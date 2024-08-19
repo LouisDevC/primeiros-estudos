@@ -1,0 +1,122 @@
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #a8a7a7;
+  background-image: url(../../10_CLONE_HOME_INSTA/img/banner1.png);
+  background-size:cover;
+  background-position: center center;
+}
+
+.container {
+  max-width: 1100px;
+  background-color: #fffefecb;
+  position: relative;
+  margin: 50px auto;
+  padding: 20px 50px;
+  border-radius: 20px;
+  box-shadow: 2px 5px 10px black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* header */
+.header {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: .5em;
+}
+
+
+.main-title {
+  font-size: 70px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.507);
+  width: 600px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: rgba(0, 0, 0, 0.815);
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.main-paragraph {
+  font-style: italic;
+  border-bottom: 2px solid rgba(51, 51, 51, 0.466);
+  padding: 5px;
+  margin: 30px 0;
+}
+
+/* Imagem destaque */
+.featured-image {
+  text-align: center;
+  margin-top: 30px;
+  color: grey;
+}
+.featured-image img {
+  border-radius: 20px;
+}
+
+/* Biografia */
+.biography-container {
+  padding: 20px 0;
+  margin: 20px 0;
+  border-top: 3px dashed #b4b4b4;
+  border-bottom: 3px dashed #b4b4b4;
+}
+
+/* Quotes */
+.quotes-container {
+  background-color: #ddd;
+  padding: 30px;
+  box-shadow: inset 3px 2px 10px black;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.quotes-container blockquote {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: justify;
+}
+
+.quotes-container p {
+  font-style: italic;
+  color: grey;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* Curiosidades */
+.curiosities-container {
+  padding: 25px 0;
+  margin: 25px 0;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li {
+  height: 30px;
+}
+
+/* Imagem bold */
+.img-bold {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+}
+.img-bold img{
+  border-radius: 20px;
+}
+.moreinfo-container{
+  background-color: grey;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 3px 3px 5px black;
+}
+.moreinfo-container:hover{
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.753);
+  background-color: rgb(105, 105, 105);
+  transition: 1s;
+}

@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Texturina
+- Font Author: Copyright 2020 The Texturina Project Authors (https://github.com/Omnibus-Type/Texturina)
+- Font Source: https://fonts.gstatic.com/s/texturina/v28/c4mM1nxpEtL3pXiAulRTkY-HGmNEX1b9NspjMwhAgliHhVrXy2dGHfUg25riW1OD.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

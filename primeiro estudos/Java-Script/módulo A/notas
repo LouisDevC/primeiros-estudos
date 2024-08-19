@@ -1,0 +1,27 @@
+O que o JS faz?
+__PRATICAMENTE TUDO.
+Cliente x Servidores
+__os aparelhos são os Clientes(hosts)
+Os aparelhos consomem dados de serviços oferecidos por servidores.
+
+A evolução do JavaScript
+__tim berns lee criou o html o protocolo http e fundou a WordWideWeb.
+mosaic foi o primeiro navegador existente
+jim clark fundou a netscape outro navegador baseado no mosaic
+em 1995 foi criado a linguagem moca e ao mesmo tempo nascia a linguagem java que ficou muito famosa.
+então a moca foi trocada pelo nome JavaScript, para que pudessem fazer sucesso na mídia tanto quanto o java.
+internet explorer lançado em 95 pela microsoft.
+anescape para não deixar que virasse bagunça com as linguagens no futuro teve uma ideia, procurou uma empresa de padronização nesse caso a "ecma" que ao padronizar o JS criou a linguagem ecmascript.
+em 2002 acabou a briga da netscape e da microsoft
+acabou a netscape faliu e seus devs fundaram a fundação mozilla que por sua vez criou o firefox, porém em 2008 a mozilla perde espaço para outra empresa que entrou no ramo, surgiu então o google Chrome, em 2009 surgiu a v8, alusão aos motores v8 que 
+no caso do google rodavam JS por de trás dos panos os motores do navegador.
+v8 codigo livre que permite qualquer um mecher.
+então em 2010 um grupo de devs pegou o código e adaptou para se usar fora do GC, nasceu assim o Node JS maquina que roda JS fora do navegador o que permite JS no lado dos Servidores também.
+
+ecmascript
+__é a versão padronizada do JS em 98 ançou a versão 2.0 e logo em 99 a versão 3.0 e assim por diante até a versão do estudo aqui que é a versão ES6 lançada em 2015 apartir dai foram lançados 1 versão por ano perdendo a numeração de versões e passando a ter o ano no lugar
+
+tecs
+__ Jquery; Angular; React;
+React native; view;Electron;
+ionic; cordova; frameworks; fazer; pixiJS; entre outros. 

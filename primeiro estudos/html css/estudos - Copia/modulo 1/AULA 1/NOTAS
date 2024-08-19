@@ -1,0 +1,13 @@
+HMTL E HTTP - CRIADO POR TIM BENRS LEE
+--------------------------
+PAGINAS POR PADRÃO CHAMA INDEX 
+! SEMPRE DÁ AS CONFIGS INICIAIS
+COLOCAR EM PT BR
+--------------------------
+CHARSET= UTF - 8 É PRA QUE ELE SEJA COMPATIVEL COM ACENTUAÇÕES
+BODY -> CONTEUDO DO SITE
+TITLE -> NOME DO SITE NA ABA
+H1 -> TÍTULO
+p -> paragrafo
+hr -> cria uma linha horizontal abaixo do tópico
+html = hypertext markup language
